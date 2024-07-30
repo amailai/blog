@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="=en">
+    <link rel="stylesheet" href="foundation.css">
+  
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <title>Angelina's Blog</title>
+    <main>
+       
+        <h1 class="title">
+            &ltAngelina's Blog&gt
+        </h1>
+        
+        <div class="display"> 
+
+            <div id="navbar" class="btn-align"> 
+                        <button onclick="homeAppear()" class= "btn home active top">Home</button>
+                        <button onclick="blogHomeAppear()" class=" btn blog bottom">Blog</button>
+
+            </div>
+            
+            <div>
+
+            </div>
+            
+            <div class="square-display">
+                <div id="home-info" class="home-info">
+                    <p> My name is Angelina, and I go to UC Davis as a Computer Science and Enginnering Major. This is my personal website and blog where I plan on writing blog posts to share different cafes I go to.</p>
+                </div>
+
+                <div class="blog">
+                    <div id="blog-post" class="grid-container">
+
+
+                        <div id = "page-1" class="page page-1">
+
+                            <div id="page-btn" class="page-btn-next"> 
+                                <button onclick="nextPage(1)" class= "page-btn-next">Next</button>
+                            </div>
+
+                            <div class="date-headers">
+                                <h2> July 2024</h2>
+                            </div>
+
+                            <div class="blog-post" onclick="infoAppear(1)">
+                                <div class="blog-img"> 
+                                    <img src="images/blog-covers/13July2024.JPG" alt="Flowers in Chania">
+                                </div>
+                                <p> NY - 13th</p>
+                            </div>
+
+                            <div class="blog-post" onclick="infoAppear(2)">
+                                <div class="blog-img"> 
+                                    <img src="images/blog-covers/14July2024.JPG" alt="Flowers in Chania">
+                                </div>
+                                <p>NY - 14th</p>
+                            </div>
+
+                            <div class="blog-post" onclick="infoAppear(3)">
+                                <div class="blog-img"> 
+                                    <img src="images/happylemon.JPG" alt="Flowers in Chania">
+                                </div>
+                                <p>NY - 15th</p>
+                            </div>
+                            
+                            <div class="blog-post" onclick="infoAppear(4)">
+                                <div class="blog-img"> 
+                                    <img src="images/happylemon.JPG" alt="Flowers in Chania">
+                                </div>
+                                <p>NY - 16th</p>
+                            </div>
+
+                            <div class="blog-post" onclick="infoAppear(5)">
+                                <div class="blog-img"> 
+                                    <img src="images/happylemon.JPG" alt="Flowers in Chania">
+                                </div>
+                                <p>NY - 17th</p>
+                            </div>
+
+                            <div class="blog-post" onclick="infoAppear(6)">
+                                <div class="blog-img"> 
+                                    <img src="images/blog-covers/28July2024.JPG" alt="Flowers in Chania">
+                                </div>
+                                <p>KR - 28th</p>
+                            </div>
+                        </div>
+
+                        <div id ="page-2" class = "page page-2">
+                            <div id="page-btn" class="page-btn-prev"> 
+                                <button onclick="prevPage(2)" class= "page-btn-prev">prev</button>
+                            </div>
+
+                            <div class="date-headers">
+                                <h2> July 2024</h2>
+                            </div>
+
+                            <div class="blog-post" onclick="infoAppear(7)">
+                                <div class="blog-img"> 
+                                    <img src="images/blog-covers/29July2024.JPG" alt="Flowers in Chania">
+                                </div>
+                                <p>KR - 29th</p>
+                            </div>
+
+                
+
+
+
+                        </div>
+
+                    </div>    
+                 </div>
+
+
+                <div id="blog-post-display" class="blog-post-display"> 
+                    <div id="back-button" class="back-btn blog-post-display"> 
+                        <button onclick="blogHomeAppearArrow()" class= "back-btn">Back</button>
+                    </div>
+                    <div>
+                        <button onclick="topFunction()" id="up-btn" title="Go to top">go to top</button>
+                    </div>
+
+
+                </div>
+
+           
+
+                <div id="blog-post-info"> 
+                    <div id = "blog-7" class="post blog-7">
+                        <h1> Korea D2</h1>
+                        <p>
+                            First official day in Korea wooooo. My skin and hair love the humidity, I feel like it’s glowing here lowkey. What a
+                            slay. Started today getting up at 8, so the jet lag didn’t really hit which was great. I had a little bit of a nibble in
+                            the lounge from the hotel, making little baguette pieces with jam and meat, in my charcuterie area. It was good, but I
+                            wanted to go get some other food and hit up some cafes.
+                        </p>
+                     
+                        <br>
+
+                        <div class="address-container seperate">
+                            <p>Coconutbox Cafe & Gallery</p>
+                            <p> 20 Hongik-ro 3-gil, Mapo-gu, Seoul</p>
+                        </div>
+
+                        <div class="small-post-img-container go-right">
+                            <img src="images/29-July-2024/cafe1.jpeg">
+                            <img src="images/29-July-2024/cafe2.jpeg">
+                            <img src="images/29-July-2024/cafe3.jpeg">
+                        </div>
+
+                        <p>
+                            So, that is what we did. We went and took the subway to Hongdae, where we went to the Coconutbox Cafe and Gallery. Looking
+                            at the pics online, it seemed really cool, but it really couldn’t capture what the inside looked like. It was so cool,
+                            the seating areas were so cool to see, and there was so much variation. The gallery itself was also cool, with an
+                            immersive lightroom and a gigantic ball pit. And the drinks there were also good and unique. There was a mangosteen
+                            drink, but I didn’t try it, maybe next time. Instead, I got a drink called a peach crush, which was under non-alcoholic,
+                            so it tasted like a cocktail without alcohol. We were there for a good hour and a half, where I just went and continued
+                            working on the blog.
+                        </p>
+
+                        <br>
+
+                        <div class="address-container seperate">
+                            <p>Maroro Marshmellow Ice Cream</p>
+                            <p>35 Hongik-ro 3-gil, Mapo-gu, Seoul</p>
+                        </div>
+
+                        <p>
+                            After, I got to explore more of the shopping in Honda, bought some clothes, took some cute pics in the photo booths, and
+                            had a little nibble too. There was this marshmallow toasted ice cream stand which sounded really good, but the place we
+                            went lowkey didn’t do it really well. They didn’t toast it enough, and it just didn’t taste as good as it looked. Very
+                            much more of an aesthetic type of thing than yummy. It was really sweet and the ice cream block was frozen solid. 
+                        </p>
+
+                        <div class="post-img-container seperate">
+                            <img src="images/29-July-2024/marsh.jpeg">
+                        </div>
+
+                        <br>
+
+                        <div class="address-container go-right">
+                            <p>Hooligan Coffee</p>
+                            <p>11-5 Wausan-ro 29ba-gil, Mapo-gu, Seoul</p>
+                        </div>
+                        <p>
+                            On the way to brunch, there might have been a pit stop… Pop Mart!! But after that, we went to brunch. I picked out this
+                            place called Hooligan Coffee, where they had Western food. I got a lunch combo where I could pick a meal and two sides
+                            with a drink too. So I got pasta and meatball, scrambled egg on toast, and French fries with a matcha latte. The vibes
+                            of the cafe were really nice, it was on the smaller side but the decor was really nice. The food was good too, they were
+                            all just elevated a bit more for the simplicity of which which was really nice. And the matcha tasted good too.
+                        </p>
+
+                        <div class="post-img-container seperate ">
+                            <img src="images/29-July-2024/brunch1.jpeg">
+                        </div>
+                        <div class="post-img-container  ">
+                            <img src="images/29-July-2024/brunch2.jpeg">
+                        </div>
+                        <div class="post-img-container seperate ">
+                            <img src="images/29-July-2024/brunch3.jpeg">
+                        </div>
+
+                        <br>
+                        
+                        <div class="address-container seperate">
+                            <p>Angel-in-us Coffee</p>
+                            <p>10 Myeongdong 3-gil, Jung District, Seoul</p>
+                        </div>
+                        <p>
+                            That was the end of our little Hongdae trip as we went back to Myeongdong afterward. I split up with Mom and Dad for a
+                            bit, went to a cafe, and coded more too. I picked one called Angel-in-us Coffee, where I went and got a citrus
+                            grapefruit tea with coconut jelly. It was a really refreshing drink and tasted good. The only downside to the cafe was
+                            that the wifi there did not work one bit, so I used some random one instead not affiliated with the cafe. So fingers
+                            crossed no viruses. 
+                        </p>
+
+                        <br>
+                        <div class="address-container seperate">
+                            <p>Cat Cafe Cat's Sarangchae </p>
+                            <p>19-3 Myeongdong 10-gil, 3 3F Jung District, Seoul</p>
+                        </div>
+                        <p>
+                            After some time there, we decided to go to a cat cafe before dinner. I got a peach black tea there and spent a good two
+                            hours there. The cats were quite weepy when we got there, but I did have some good petting time with the cats and read
+                            just a little bit. The current read is “Men Who Hate Women” by Laura Bates. So far, it seems really interesting so I
+                            can’t wait to dig into it more. Not only were the cats feeling a little eepy, but I also started feeling a little bit
+                            eepy too. But I was chilling. Dad on the other hand was taking a little nap in the cat cafe.
+                        </p>
+
+                        <br>
+
+                        <div class="address-container seperate">
+                            <p>Geumnyeong Hanu Korean BBQ City Hall </p>
+                            <p>Seoul, Jung District, B1 JaeNeung Building 6 Euljiro-ro</p>
+                        </div>
+                        <p>
+                            So, we went to dinner so we could get back to the hotel and he could sleep early… but... I might have made some pit
+                            stops and bought some clothes teehee. We did make it to dinner though, and saw some stray cats at the pagoda behind the
+                            hotel on the way. We ate some kbbq at this place called Geumnyeong Hanu Korean BBQ City Hall. It was rated well, and
+                            tasted quite good. I with the menu was a bit more expansive though, there was like I think four types of meat we could
+                            actually bbq. It was good the marinated ribs we had, but yeah just hoping a bit more.
+                        </p>
+
+                        <br>
+
+                        <p>
+                            That is the end of today though on the food and the times. Another day tomorrow, going to some places Ms. Shim
+                            recommended, and I get to see her tomorrow wooohoooo.    
+                        </p>
+                        
+                    </div>
+
+                    <div id = "blog-6" class="post blog-6">
+                        <h1> Korea D1</h1>
+
+                        <p>
+                            A 12-hour flight: 3 movies, reading, 20 20-minute nap, chips that made my stomach hurt. I have officially landed in
+                            Korea.
+                        </p>
+
+                        <br>
+
+                        <div class="address-container seperate">
+                            <p>Cafe Mignon</p>
+                            <p> 55-15 Myeong-dong 2(i)-ga, Jung District, Seoul</p>
+                        </div>
+
+                        <div class="post-img-container go-right">
+                            <img src="images/28-July-2024/cafe.jpeg">
+                        </div>
+
+                        <p>
+                            We got to our hotel, which is right next to Myeongdong,
+                            which is perfect for some shopping!!! I don't know how I'm not tired,
+                            but I was ready to go out and shop, eat, and go to cafes, which is what
+                            happened. Dad and I went to Myeongdong and went to some photo booths, looked
+                            in some stores, and went to our first cafe already. We went to Cafe Mignon,
+                            where I got a chocolate tart and a yogurt smoothie. I've been missing Asian
+                            yogurt so badly, and it tasted really good. There, I worked a bit on the blog
+                            teehee. After that, we went and walked some more. We passed by so many cat cafes,
+                            I can't wait to go in a few days to them! We spent a good 2 and a half hours outside,
+                            buying a little bit of clothes and spending a band on Pop Mart. For some snacks,
+                            I got some honey chicken, and also some fresh watermelon juice. They both hit the spot.
+                        </p>
+
+                        <div class="post-img-container seperate">
+                            <img src="images/28-July-2024/chicken.jpeg">
+                        </div>
+
+                        <br>
+
+                        <p>
+                            Since we came in quite late, this was all we were able to go to. But I am excited 
+                            to see how the rest of the days are going to go.
+                        </p>
+                    </div>
+                    
+
+                    <div id = "blog-5" class="post blog-5">
+                        <h1> New York D5</h1>
+                    </div>
+
+                    <div id = "blog-4" class="post blog-4">
+                        <h1> New York D4</h1>
+                    </div>
+
+                    <div id = "blog-3" class="post blog-3">
+                        <h1> New York D3</h1>
+                    </div>
+
+                    <div id = "blog-2" class="post blog-2">
+                        <h1> New York D2</h1>
+
+
+                        <p>
+                            First official full day in New York!!! We started off the day great by getting bagels, the first bagels I've gotten in
+                            New York
+                        </p>
+
+                        <br>
+
+                        <div class="address-container seperate">
+                            <p> Popup Bagels</p>
+                            <p> 338 Columbus Ave, New York, NY 10023, United States</p>
+                            <p>Mast Market</p>
+                            <p>353 Columbus Ave, New York, NY 10024, United States</p>
+                        </div>
+
+                        <div class="post-img-container go-right">
+                            <img src="images/14-July-2024/bagel.jpeg">
+                            <img src="images/14-July-2024/mastMarket.jpeg">
+                        </div>
+                      
+                        <p> 
+                            We got 3 bagels, plain, everything, and poppy seed bagel.
+                            We also got a scallion cream cheese with it. And of course,
+                            to enjoy it, we had to walk to Cetral Park, which was only another
+                            10 ish minutes away. We didn't go too deep inside, just on the edge where we were near 
+                            a dog area. There, we cracked open the bagels. The scallion cream cheese was not really my type
+                            of vibe, but the plain bagel was really, really good. With the bagels I've had in the past, I didn't really
+                            ever like them, but this was really good. The bagel was all crispy, fresh, and nice. I liked seeing the squirrels in the park,
+                            the last time I saw any it was back in Davis. When we were walking from the bagel place to central park, we passed by a coffee
+                            shop that we ended up going into on the way back to the Sunday market called Mast Market. The Sunday market was so fun to look through. I ended
+                            up getting little stackable rings, and these really fun sunglasses that say bad boy on them.
+                        </p>
+
+                        <br>
+
+                        <div class="post-img-container seperate">
+                            <img src="images/14-July-2024/magnolia.jpeg">
+                        </div>
+
+                        <div class="address-container go-right">
+                            <p>Magnolia Bakery</p>
+                            <p> 200 Columbus Ave, New York, NY 10023, United States</p>
+                        </div>
+                        <p> 
+                            We couldn't go back to the hotel though until we had one more stop, which was to Magnolias. There, we got their
+                            infamous banana pudding, and I got a blueberry lemonade. These were perfect to have as a snack on a warm day. Then, it
+                            was on our way back to the hotel, and by now it was barely 1pm. Quick break and cool down in the hotel, and then off to Soho we go!
+                        </p>
+
+                        <br>
+
+                        <div class="address-container seperate">
+                            <p>Matchaful</p>
+                            <p>184 Prince St, New York, NY 10012, United States</p>
+                            
+                        </div>
+
+                        <p>
+                            The first place that we hit up in Soho was Matchaful. The inside was really nice, though I wish it was bigger so we could sit inside.
+                            I got an immunity elixer, which was matcha with turmeric and ginger, just to try something new. It was really good, but a little strong. Something that
+                            I did really like though. Clara and I sat outside and read for a little while we continued sipping.
+                        </p>
+
+                        <br>
+
+                        <p>
+                            Afterwards, we went and looked at some of the shopping throughout Soho. Went into some stores here and there, but we didn't really get anything. Our next cafe
+                            that we did stop at though, was one recommended by Nica's friend. It seems like a chain as I've seen many more on my maps 
+                            throughout. At Maman, I got an iced chai,
+                            but was too late for food as the kitchen closed. At this location, it was connected to a little store with stationary and gift-like things. The interior was really cute 
+                            and they had an outdoor seating with flowers but it had rained earlier.
+                        </p>
+
+                        <br>
+
+                        <p>
+                            We just continued walking throughout Soho a bit more before we decided to get an early dinner, which was a good idea. We
+                            went to eat at Raku, a Japanese place where they are known for their homemade udon. We were lucky as we only needed to wait 10
+                            minutes for a table as they switched to their dinner items.
+                            I got their duck udon which was really good, and we had some of their gyozas which were also good. Would totally
+                            recommend eating here once.
+                        </p>
+
+                        <br>
+
+                        <p>
+                            We couldn't leave and go back to the hotel without dessert of course. We went to Sweet Rehab, where we got dessert, tea,
+                            and read.
+                            I got a jasmine tea and a vanilla eclair. Lowkey, this place was really pricey for their items, so I had hoped for how
+                            it would be but it turned out more mid than I thought.
+                            Like the eclair was okay, I've had better though, to be honest, and the tea was, well, tea. So it was fine, but I
+                            probably won't come back there
+                            if I visit New York again.
+                        </p>
+
+                        <br>
+
+                        <p>
+                            But voila, that was the first full day in New York!!! Tomorrow, we have
+                            Pierce joining us and we will go to a few more places.
+                        </p>
+
+                    </div>
+
+                    <div id = "blog-1" class="post blog-1">
+                        <h1> New York D1</h1>
+
+                        <p> This is going to be my very first blog post!!! And what better way to start it out than with New York out of
+                            all places. This was going to be a cafe-focused blog, but I feel like with New York, I gotta
+                            talk about the food too. I was able to go to so many good places, so hopefully these will give you some good
+                            recommendations if you end up going to New York too.
+                        </p>
+
+                        <br>
+
+                        <div class="address-container go-right">
+                            <p> The Lucerne Hotel</p>
+                            <p> 201 W 79th St, New York, NY 10024</p>
+                        </div>
+                        <p>
+                            On the first day, Clara and I arrived around evening time and went straight to the hotel first. We stayed 
+                            at the Lucerne Hotel on the Upper West Side. 
+                            I actually really enjoyed where we stayed at since it was a good area to walk around and we were also close
+                            to a subway station, 79th Street, to be exact. It was also a hotel that we were able to check in being under 21.
+                        </p>
+
+                        <br>
+
+                        <div class="address-container seperate">
+                            <p> Mochi Dolchi</p>
+                            <p> 222 W 79th St, New York, NY 10024</p>
+                        </div>
+
+                        <br>
+
+                        <div class="post-img-container go-right">
+                            <img src="images/13-July-2024/mochiDolchi.JPG">
+                        </div>
+                        <p>
+                            The first place we went to in New York was a bubble tea shop. We decided to stop
+                            by before going to dinner and it was such a cool experience. We got a mango fruit tea with 
+                            boba in it. The drink itself was good, the boba though wasn't the best to be honest. The decorations
+                            inside though, were very cool. There was this pink phone booth with a hidden door that led to
+                             a speakeasy which I thought was really cool.
+                        </p>
+
+                        <br><br><br><br>
+                        <p>
+                           Afterwards, we took the subway south of New York and went closer to the pier. here, we stopped by and got some cookies at 
+                           Funny Face Bakery. 
+                        </p>
+                        <div class="address-container go-right">
+                            <p>Funny Face Bakery</p>
+                            <p>6 Fulton St, New York, NY 10038, United States</p>
+                            <p> Mister Dips</p>
+                            <p> 89 South St, New York, NY 10038, United States</p>
+                        </div>
+
+    
+                        <p>
+                            They had really funny and cunty designs on their cookies which were so fun. We ended up getting like a banana toffee cookie
+                            that tasted lowkey fire. Then we walked more to the pier where we went and got dinner
+                            at Mister Dips. I got their chicken sandwich which hit different. Clara got their strawberry-dipped cone which I tried. I'm not really a fan of dipped ice cream, but the ice cream itself was good. After all of this, 
+                            we did see a gelato stand on the pier... so of course we had to get gelato too. I got strawberry and yogurt flavoured and they were really good.
+                        </p>
+                        <div class="post-img-container seperate">
+                            <img src="images/13-July-2024/bakery.jpeg">
+                            
+                        </div>
+                        <div class="post-img-container go-right">
+                            
+                            <img src="images/13-July-2024/misterDips.jpeg">
+
+                            
+                        </div>
+                       
+                       
+                        <br>
+
+                        <p>
+                            For my first time being back in New York after around 7 years, this was a
+                            great start to the trip. And there were many more places we had lined up to go to.
+                        </p>
+
+                        
+
+                  
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        
+
+       
+
+
+
+    </main>
+    <script src="main.js"></script>
+    
+</html>
