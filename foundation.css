@@ -165,8 +165,9 @@ html{
 
 .blog-img img{
   width: 100%;
-
+  object-fit: contain;
 }
+
 
 .blog-post p{
   text-align: center;
@@ -216,7 +217,9 @@ html{
   border-bottom-left-radius: 10px;
   font-size: 1vw; /* Increase font size */
   width: 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 #blog-post-info h1{
   text-align: center;
@@ -266,10 +269,13 @@ html{
 .post-img-container{
   max-width: 40%; /* Ensure images do not exceed their container's width */
   max-height: 40%; /* Set maximum height for images */
+  width: auto;
+  height: auto;
   margin-bottom: 2.5%;
   margin-top: 2.5%;
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: inline-block;
+
+  align-content: center;
 }
 
 .post-img-container img{
@@ -296,14 +302,50 @@ html{
 .small-post-img-container{
   max-width: 20%; /* Ensure images do not exceed their container's width */
   max-height: 20%; /* Set maximum height for images */
+  width: auto;
+  height: auto;
   margin-bottom: 2.5%;
   margin-top: 2.5%;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  align-content: center;
+}
+
+.med-post-img-container{
+  max-width: 30%; /* Ensure images do not exceed their container's width */
+  max-height: 30%; /* Set maximum height for images */
+  width: auto;
+  height: auto;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  align-content: center;
 }
 
 .small-post-img-container img{
   max-width: 100%;
   max-height: 100%;
+  
+  align-items: center;
 }
+
+.med-post-img-container img{
+  max-width: 100%;
+  max-height: 100%;
+ 
+}
+
+.left-text{
+  display: inline-block;
+  flex-wrap: wrap;
+  float: left;
+  margin-left: 2%;
+  margin-right: .5%;
+}
+
 
 
 
